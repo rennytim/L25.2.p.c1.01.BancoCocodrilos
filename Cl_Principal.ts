@@ -18,7 +18,7 @@ console.log(banco.montoTotalCreditosAprobados());
 
 let salida = document.getElementById("salida");
 if (salida == null) {
-    console.log("No se encontro el div");
+    console.log("No se encontro el div, verificar el html");
 } else  {
     salida.innerHTML = `<p>Numero de creditos aprobados: ${banco.totalCreditosAprobados()}</p>`;
     salida.innerHTML += `<p>Monto total de creditos aprobados: ${banco.montoTotalCreditosAprobados()}</p>`;
